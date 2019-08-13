@@ -478,6 +478,6 @@ def get_symbol(config,
 
 
 if __name__ == '__main__':
-    sym = get_symbol(2, 101, '3,224,224')
+    sym = get_symbol('w18', '3,224,224')
     vis = mx.viz.plot_network(sym)
     vis.render('hrnet_example')
